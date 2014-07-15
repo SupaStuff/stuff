@@ -8,7 +8,7 @@
         <script type="text/javascript">
          $("document").ready(function() {
             // load the template from the external file
-            $("#container").loadTemplate("template.html#ex1", [{
+            $(".container").loadTemplate("template.html#ex1", [{
                "name" : "Henry Handsome",
                "phone" : "+1-212-555-1234",
                "email" : "pensive@example.com",
@@ -42,6 +42,6 @@
         <h1>External Templates with jQuery Template</h1>
         <h3>This example loads an external template from an HTML file</h3>
         <!-- This is the container where the templates will be instantiated -->
-        <div id="container"></div>
+        <div class="container"></div>
     </body>
 </html>
