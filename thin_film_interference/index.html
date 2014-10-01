@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://supastuff.github.io/stuff/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://supastuff.github.io/stuff/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print" />
       
+	<style type="text/css">
+		.table{float:left; width: 8em;}
+		.display{width: 84em;}
+		.display td{width: 20em;}
+		.stuff{position:relative; left:5em; width: 100em;}
+	</style>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 
@@ -26,8 +32,7 @@
         &nbsp;</div>
     </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
+      <div class="stuff">
         <section id="main-content">
             <h2>Chapter 35, Problem 40</h2>
             <div>
@@ -37,29 +42,37 @@
                 <input type="button" id="btn" value="Get thin film's thickness" />
                 <input type="button" id="randy" value="instaWrong" />
             </div>
-
-            <div id="match">
+			
+			<table class="display">
+			<tr>
+			<td>
+            <div id="match" class="float">
                 <h3>if(correct==wrong)</h3>
                 <div></div>
             </div>
-
-            <div id="brute">
+			</td>
+			<td>
+            <div id="brute" class="float">
                 <h3>Ultra brute force method</h3>
                 <div></div>
             </div>
-            
-            <div id="correct">
+            </td>
+			<td>
+            <div id="correct" class="float">
                 <h3>Correct method based on brute force</h3>
                 <div></div>
             </div>
-            
-            <div id="wrong">
+            </td>
+			<td>
+            <div id="wrong" class="float">
                 <h3>My method which might sometimes be wrong</h3>
                 <div></div>
             </div>
+			</td>
+			</tr>
+			</table>
         </section>
       </div>
-    </div>
 
   
   </body>

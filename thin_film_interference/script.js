@@ -44,6 +44,7 @@ function brute(min, max, n)
     });
 
     var $table1 = $('<table><caption>m1 vs t</caption><th>m1</th><th>t</th></table>');
+	$table1.addClass('table');
     $('#brute div').prepend($table1);
     $.each(tmax, function (m, t) {
         var $row = $('<tr></tr>');
@@ -59,7 +60,8 @@ function brute(min, max, n)
     });
 
     var $table2 = $('<table><caption>m2 vs t</caption><th>m2</th><th>t</th></table>');
-    $('#brute div').prepend($table2);
+    $table2.addClass('table');
+	$('#brute div').prepend($table2);
     $.each(tmin, function (m, t) {
         var $row = $('<tr></tr>');
         $table2.append($row);
