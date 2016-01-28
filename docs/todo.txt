@@ -1,0 +1,18 @@
+Xamarin
+-histogram
+--number frequencies
+--cash ball frequencies
+--unique combos frequencies
+-button for generate numbas
+--list 5 numbas
+SODA.net
+-cash4life
+
+ID NYC -- visit places
+Housing
+ICLR 2016
+Internships and scholarships
+Gertner
+organize stuff from past semesters and push them to git
+
+W2 & refund
