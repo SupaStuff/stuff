@@ -1,5 +1,5 @@
 
 all:
-	cd draft/ ; for f in *.tex; do xelatex $$f; done
+	cd draft/ ; for f in *.tex; do xelatex $$f; rm *.aux *.log *.out; done
 clean:
-	cd draft/ ; rm *aux *log *out
+	cd draft/ ; rm *.aux *.log *.out
